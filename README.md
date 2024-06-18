@@ -3,7 +3,7 @@
 Projeto Individual - Desenvolvimento Mobile / React Native
 
 
-<img src="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png">
 </h1>
 </div>
 </br>
