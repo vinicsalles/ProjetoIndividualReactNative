@@ -47,7 +47,7 @@ Dependencias:
 
 ## :hammer_and_wrench: Tecnologias utilizadas
 
-- [React Native]([https://reactnative.dev/]))
+- [React Native](https://reactnative.dev/))
 
 
 
