@@ -1,7 +1,13 @@
 import { StyleSheet } from "react-native";
 
-export const styles = StyleSheet.create({
+export const stylesLogin = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#820AD1",
+    alignItems: "center",
+    justifyContent: "center",
+  },
   logo: {
-    color: "white",
+    marginBottom: 20,
   },
 });

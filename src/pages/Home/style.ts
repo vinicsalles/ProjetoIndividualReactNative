@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { Button, StyleSheet } from "react-native";
 export const stylesHome = StyleSheet.create({
   container: {
     flex: 1,
@@ -63,21 +63,21 @@ export const stylesHome = StyleSheet.create({
     fontSize: 50,
     color: "#f1f1f1",
   },
-  cards: {
-    flexDirection: "row",
-    marginLeft: 30,
-  },
-  card: {
-    backgroundColor: "#9500F6",
-    borderRadius: 10,
-    padding: 30,
-    margin: 10,
-    top: 10,
-    flexDirection: "column",
-  },
   textPrecisa: {
     marginLeft: 42,
     fontSize: 17,
     color: "#f1f1f1",
+  },
+  Button: {
+    marginTop: 50,
+    width: 60,
+    margin: 50,
+    borderRadius: 6,
+    padding: 10,
+    backgroundColor: "#9500F6",
+  },
+  buttonText: {
+    color: "#f1f1f1",
+    fontWeight: "800",
   },
 });

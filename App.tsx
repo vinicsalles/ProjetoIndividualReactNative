@@ -1,16 +1,11 @@
-import { StyleSheet } from "react-native";
-import Login from "./src/pages/Login";
-import { Home } from "./src/pages/Home";
+import { StatusBar } from "expo-status-bar";
+import { Routes } from "./src/Routes";
 
 export default function App() {
-  return <Home />;
+  return (
+    <>
+      <StatusBar style="auto" />
+      <Routes />
+    </>
+  );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#820AD1",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
