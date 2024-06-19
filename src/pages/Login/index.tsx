@@ -31,7 +31,7 @@ export function Login() {
           style={stylesLogin.logo}
         />
         <InputLogin recebePlaceHolder="Digite seu Email:" />
-        <InputLogin recebePlaceHolder="Digite sua Senha:" />
+        <InputLogin recebePlaceHolder="Digite sua Senha:" type={true} />
 
         <Button title="Login" onPress={handleLogin} color="black" />
       </View>
